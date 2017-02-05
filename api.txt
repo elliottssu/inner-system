@@ -1,0 +1,9 @@
+/**标签系统*/
+//2016-12-16
+//统计用户已打的标签数量
+localhost:8081/tags/products/count
+方法：get
+参数：userName(可选)，不填显示所有用户统计数据
+返回格式：
+{code:0,msg:"",data:[{userName:"xxx",count:10},...,{...}]}
+

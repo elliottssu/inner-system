@@ -1,0 +1,165 @@
+@import url('bootstrap.min.css');
+@import url('jquery.dataTables.css');
+@import url('dataTables.bootstrap.css');
+html, body{
+    height:100%;
+}
+nav{
+    min-height:10%;
+}
+.main {
+    min-height:90%; /*使内容高度和body一样*/
+    margin-bottom:-80px;/*向上缩减80像素，不至于footer超出屏幕可视范围*/
+    padding-bottom:150px;/*这个是关键，处理页面高度超出屏幕可视范围时，控制内容和底部高度之间距离*/
+}
+footer {
+    height:80px;
+}
+/*--------------------------------
+        DYNAMIC TABLE STYLE
+----------------------------------*/
+.dataTables_paginate.paging_bootstrap.pagination li {
+    float: left;
+    margin: 0 1px;
+    border: 1px solid #ddd;
+    list-style: none;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li.disabled a {
+    color: #c7c7c7;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li a {
+    color: #797979;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li:hover a, .dataTables_paginate.paging_bootstrap.pagination li.active a {
+    color: #fff;
+    background: #65cea7;
+    text-decoration: none;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li:hover,
+.dataTables_paginate.paging_bootstrap.pagination li.active {
+    border-color: #65cea7;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li.disabled:hover,
+.dataTables_paginate.paging_bootstrap.pagination li.disabled:hover a {
+    color: #C7C7C7;
+    background: #fff;
+    border-color: #DDDDDD;
+    cursor: no-drop;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination {
+    float: right;
+    margin-bottom: 15px;
+}
+
+.dataTable tr:last-child {
+    border-bottom: 1px solid #ddd;
+}
+.dataTable tr.odd.gradeA td.sorting_1, .dataTable tr.odd td.sorting_1, .dataTable tr.even.gradeA td.sorting_1 {
+    background: none;
+}
+
+.dataTable td.details {
+    background-color: #424F63;
+    color: #fff;
+}
+
+.dataTable td.details table tr td, .dataTable tr:last-child {
+    border: none;
+}
+
+.adv-table table.display tr.odd.gradeA {
+    background-color: #F9F9F9;
+}
+
+.adv-table table.display tr.even.gradeA {
+    background-color: #FFFFFF;
+}
+
+.adv-table .dataTables_filter label input {
+    float: right;
+    margin-left: 10px;
+    width: 78%;
+}
+
+.adv-table .dataTables_filter label {
+    line-height: 33px;
+    width: 100%;
+}
+
+.adv-table .dataTables_length select {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 5px 8px;
+    width: 65px;
+}
+
+.adv-table .dataTables_info, .dataTables_paginate {
+    padding: 15px 0;
+}
+
+.adv-table .dataTables_length, .adv-table .dataTables_filter {
+    padding: 15px 0;
+}
+
+.cke_chrome {
+    border: none !important;
+}
+.dataTable tr.odd.gradeX td.sorting_1, .dataTable tr.even.gradeX td.sorting_1,
+table.display tr.even.gradeX, table.display tr.gradeX, tr.even.gradeU td.sorting_1, tr.even td.sorting_1, table.display tr.even.gradeC, table.display tr.gradeC, tr.odd.gradeC td.sorting_1, table.display tr.even.gradeU, table.display tr.gradeU, tr.odd.gradeU td.sorting_1 {
+    background: none !important;
+}
+/*----------------------------
+    EDITABLE TABLE STYLE
+-----------------------------*/
+
+.editable-table table input {
+    width: 95% !important;
+}
+
+.editable-table table td a {
+    color: #49586E;
+}
+
+.editable-table table td a:hover {
+    color: #65CEA7;
+}
+/*-------------------
+        TOOLS
+--------------------*/
+
+.tools {
+    margin: -7px -5px;
+}
+
+.tools a {
+    background: #E3E4E8;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #858582;
+    float: left;
+    margin-left: 3px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tools a:hover {
+    background: #65cea7;
+    color: #fff;
+}
+.panel-heading {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-transform: uppercase;
+    color: #535351;
+    font-size: 14px;
+    font-weight: bold;
+}
+

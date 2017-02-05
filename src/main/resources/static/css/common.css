@@ -1,0 +1,299 @@
+@import url('bootstrap.min.css');
+body {
+    background: #424f63;
+    font-family: 'Open Sans', sans-serif;
+    color: #7a7676;
+    line-height: 20px;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+
+input, select, textarea {
+    font-family: 'Open Sans', sans-serif;
+    color: #767676;
+}
+a:focus, a:active, a:hover {
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #77BA9B;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mtop10 {
+    margin-top: 10px;
+}
+
+hr {
+    border-color: #ddd;
+}
+
+/*-------------------------------
+            LOGIN STYLES
+-------------------------------*/
+.login-body {
+    background: #476d76 url("../images/background.jpg") no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.form-signin {
+    max-width: 330px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgb(146,146,146);
+    -webkit-border-radius: 5px;
+    
+}
+.form-signin .form-signin-heading {
+    margin: 0;
+    padding: 25px 15px 15px 15px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.sign-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #6a8abe;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    margin:20px 0px 0px 0px;
+}
+
+.form-signin .checkbox {
+    padding:0 20px;
+    font-size: 13px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+    color: #999;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    left: 0;
+}
+.forget:hover{
+	color:#6BC5A4!important;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #eaeaec;
+    background: #eaeaec;
+    box-shadow: none;
+    font-size: 12px;
+}
+
+.form-signin .btn-login {
+    background: #6a8abe;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 5px;
+    padding: 8px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+.btn-color{
+	background-color:#424f63;
+	color:#fff;
+}
+.btn-color:hover{
+	background-color:#3B5998;
+	color:#fff;
+}
+.form-signin .btn-login:hover {
+    background: #3B5998;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.form-signin p {
+    text-align: left;
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.form-signin a:hover {
+    text-decoration: underline;
+}
+
+.login-wrap {
+    padding: 20px;
+    position: relative;
+}
+
+.registration {
+    color: #c7c7c7;
+    text-align: center;
+    margin-top: 15px;
+}
+/*bootstrap reset*/
+.modal-content {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.modal-header {
+    background: #424f63;
+    color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+}
+
+.modal-header .close {
+    color: #fff;
+    opacity: .5;
+}
+.modal-header .close:hover {
+    opacity: 1;
+}
+/**********************************
+Use: cmxform template
+***********************************/
+form.cmxform {
+	width: 370px;
+	font-size: 1.0em;
+	color: #333;
+}
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-size:12px;
+	font-weight:normal;
+}
+div.error { display: none; }
+input.error { border: 1px dotted red; }
+.hide{ display: none; }
+.focus{
+	font-weight:400;
+	font-size:12px;
+}
+footer {
+    padding: 25px 0;
+   	/* position:absolute; */
+	height:80px;
+	text-align:center;
+	bottom: 30px;
+	width:100%;
+}
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    color:#ddd;
+}
+/*******������֤��ʽ��********/
+div.email-panel{
+	max-width: 700px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgb(146,146,146);
+    -webkit-border-radius: 5px;
+}
+ .panel-heading{
+ 	padding:30px 40px 10px 40px;
+ 	background-color:#424f63 !important;
+ 	color:#fff !important;
+ }
+ .panel-title{
+ 	font-size:22px;
+ 	font-weight:600;
+ }
+ div.panel-body{
+ 	padding:20px 40px 30px 40px;
+ 	position:relative;
+ }
+ .pic{
+ 	float:left;
+ 	padding:56px 77px;
+ 	background:url(/images/send.jpg) 0 0 no-repeat;
+ 	margin:3px;
+ }
+ .color-success{
+ 	color:#4cae4c;
+ }
+ .color-fail{
+ 	color:#d43f3a;
+ }
+ .icon-pic{
+ 	float: left;
+ 	font-size:12em;
+ 	margin:3px;
+ }
+ .title-success{
+ 	padding-bottom:10px;
+ 	font-weight:600;
+ 	color:#4cae4c;
+ }
+ .panel-footer{
+ 	position:relative;
+ 	padding-left:50px;
+ 	padding-bottom:20px;
+ }
+ div.panel-footer p{
+ 	font-size:13px;
+ 	padding-left:45px;
+ }
+ h5.tit{
+ 	padding-left:40px;
+ 	font-weight:600;
+ 	margin-bottom:15px;
+ }
+ .pic-q{
+ 	position:absolute;
+ 	padding:15px;
+ 	background:url(/images/questionmark.png) 0 0 no-repeat;
+ }
+ button.btn-default{
+ 	color: #6B6A6A;
+  	background-color: #ebebeb;
+  	border-color: #adadad;
+  	margin-left:5px;
+ }
+ button.btn-default:hover{
+ 	color: #6B6A6A;
+  	background-color: #fff;
+  	border-color: #ccc;
+ }
+ p.jump{
+ 	margin-top:55px;
+ 	font-size:13px;
+ }
+ button.btn{
+ 	padding: 4px 12px;
+ }

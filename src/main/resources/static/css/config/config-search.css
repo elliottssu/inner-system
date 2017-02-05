@@ -1,0 +1,228 @@
+/********************数据元接入查找主界面********************/
+.config-companyname .control-label{
+    line-height: 33px;
+
+}
+.m-min-h{
+    min-height: 650px;
+}
+.m-l--22{
+    margin-left: -22px;
+}
+/*.card-box-full{*/
+    /*margin-top: -11px;*/
+    /*padding: 20px;*/
+    /*box-shadow: 0 1px 3px #dcdcdc;*/
+    /*-webkit-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*background-clip: padding-box;*/
+    /*margin-bottom: 0px;*/
+    /*background-color: #ffffff;*/
+    /*min-height: 820px;*/
+/*}*/
+.card-title{
+    font-size: 20px;
+}
+.companyname{
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+.datatree .col-md-3{
+    border-left:1px dotted #bbb ;
+    min-height: 650px;
+
+}
+.datatree .col-md-3>p{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.datatree .col-md-12 + .col-md-3{
+    border-left: none!important;
+}
+.datasourcenumber,.datachoosenumber,.etlnumber{
+    color: #555;
+    background-color: orange;
+    width:18px;
+    height:18px;
+    border-radius:9px;
+    display: inline-block;
+    line-height: 17px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nocontent{
+    background: url('../../images/config/nocontent.png') no-repeat center ;
+    width: 300px;
+    height: 170px;
+}
+.contentshow{
+    width: 300px;
+    height: 250px;
+    margin-top: -150px;
+    margin-left: -150px;
+    position: absolute;
+    z-index: 9;
+    top: 59%;
+    left: 55%;
+}
+.contentshow p{
+    text-align: center;
+    color: #888;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+/*********************连接数据源*******************/
+.editor-horizontal a{
+    color: #7a7676;
+}
+.editor-horizontal label{
+    color: #555;
+    line-height: 14.5px;
+}
+/* Popover */
+.popover {
+    font-family: inherit;
+    border: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-clip: padding-box;
+    -webkit-box-shadow:  0px 1px 7px #BCBCBC;
+    -moz-box-shadow:  0px 1px 7px #BCBCBC;
+    box-shadow:  -2px 3px 13px #BCBCBC;
+}
+.popover .popover-title {
+    background-color: transparent;
+    color: #555;
+    font-weight: 600;
+}
+.editor-horizontal .popover-content {
+    padding: 9px 30px;
+}
+.editor-horizontal .form-group {
+    margin-bottom: 10px;
+    /*margin-left: -25px;*/
+    margin-right: 35px;
+}
+.editable-click, a.editable-click, a.editable-click:hover {
+    border-bottom: none;
+}
+.editable-empty, .editable-empty:hover, .editable-empty:focus {
+    font-style: normal;
+    color: inherit;
+}
+/*显示数据元节点*/
+.datasoure,.etltemplate{
+    list-style:none;
+    text-align:center;
+}
+.datasoure ul,.etltemplate ul{
+    margin:-6px 0 -7px -50px;
+    line-height: 35px;
+}
+.datasoure li,.etltemplate li{
+    display: inline;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #555555;
+}
+.editor-horizontal{
+    padding-top: 30px;
+}
+.editor-horizontal .form-group a{
+    white-space:normal;
+    word-break:break-all;
+    overflow:hidden;
+}
+.editor-horizontal .col-md-3{
+    padding: 3px;
+}
+.datasourechoice,.temlatechoice{
+    color: #555;
+    background-color: orange;
+    border-radius:9px;
+    padding: 5px;
+    height: 25px;
+    display: inline;
+    cursor: pointer;
+
+}
+.datasourechoice:after,.temlatechoice:after{
+    content: '+';
+    color: #fff;
+    font-size: 18px;
+    padding-left: 6px;
+}
+/*********************作业周期*******************/
+.cronvalue{
+    font-size: 14px;
+    color: #555;
+    margin-left: 15px;
+    margin-top: 64px;
+}
+.cronfix,.crontime{
+    margin-bottom: 20px;
+}
+.tragetime,.crondetailtime div span:last-child{
+    color: #7a7676;
+}
+.cronExpression {
+    color: orange;
+}
+.crondetailtime i{
+    color: #7a7676;
+    margin-left: 5px;
+}
+.crondetailtime i:hover{
+    color: orange;
+}
+.crondetailtime div:not(.detailtime){
+    padding-top: 10px;
+    padding-left: 42px;
+}
+/*********************数据选择*******************/
+.tablename i,.etltemplatetable i{
+    color: #7a7676;
+    margin-left: 5px;
+}
+.tablename i:hover,.etltemplatetable i:hover{
+    color: orange;
+}
+.tablename ul{
+    max-height: 270px;
+}
+.tablename li{
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 13px;
+    color: #7a7676;
+}
+.dataselect{
+    font-size: 14px;
+    color: #555;
+    margin-left: 15px;
+    margin-top: 64px;
+}
+.schemaname,.crontime{
+    margin-bottom: 20px;
+}
+.schema {
+    color: orange;
+}
+
+/*********************ETL操作*******************/
+
+
+
